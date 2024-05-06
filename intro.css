@@ -1,0 +1,95 @@
+/* styles.css */
+
+/* 전체 페이지 스타일 */
+
+#top_button {
+    position: fixed; bottom: 5px; right: 5px;
+    background: white;
+    border-radius: 8px;
+}
+#top_button a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(red,aqua)
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header{
+    float: left;
+    font-size:xx-large;
+    font-weight: bold;
+}
+
+/* 내비게이션 메뉴 스타일 */
+nav ul {
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    float: right;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    line-height: 50px;
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+    background-color: lightgray;
+    color: white;
+}
+
+
+section {
+    margin-bottom: 20px;
+    float:left;
+}
+
+
+.hobbies-dreams {
+    display: flex;
+}
+
+.hobbies-dreams div {
+    flex: 1;
+    margin-right: 20px;
+}
+
+
+.timetable table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color:rgba(255, 255, 255, 0.319);
+    text-align: center;
+    text-decoration: none;
+}
+
+.timetable thead {background-color:lightgray;}
+
+.timetable td, .timetable th {
+    padding: 8px;
+    border: 1px solid black;
+}
+
+.timetable td:hover {
+    background-color: black;
+    color: white;
+}
